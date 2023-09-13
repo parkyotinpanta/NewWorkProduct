@@ -1,7 +1,12 @@
 const express = require('express')
 const router = express.Router()
 
-const {read, create, update, remove, list} = require('../Controllers/product')
+const {read,
+    create,
+    update,
+    remove,
+    list
+    } = require('../Controllers/product')
 
 
 
