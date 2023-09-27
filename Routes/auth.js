@@ -1,11 +1,10 @@
 const express = require('express')
 const router = express.Router()
-const {readdirSync} =require('fs')
+
+const { register,login } = require('../Controllers/auth') 
 
 
-router.get('/auth',(req,res)=>{
-    res.send('Hello Auth')
-})
-
+router.post('/register', register)
+router.post('/login',login)
 
 module.exports = router

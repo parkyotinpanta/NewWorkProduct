@@ -12,3 +12,5 @@ const productSchma = mongoose.Schema({
 },{timestamps:true})
 
 module.exports = mongoose.model('product',productSchma)
+
+// โมเดลฐานข้อมูลดาต้าเบส mongoose ว่าเรากำหนดมีอะไรบ้าง

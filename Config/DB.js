@@ -9,3 +9,5 @@ const connectDB = async()=>{
 }
 
 module.exports = connectDB
+
+// นี่คือฐานข้อมูลที่เชื่อมต่อกับ mongoose 

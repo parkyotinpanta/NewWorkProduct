@@ -59,3 +59,7 @@ exports.remove = async (req, res) => {
         res.status(500).send('server error')
     }
 }
+
+
+
+// แต่ละหัวข้อ คือการกำหนดใช้ CRUD ว่าให้ส่งค่าและรับค่าอะไร 
